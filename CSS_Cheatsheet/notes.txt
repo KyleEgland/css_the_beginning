@@ -1,0 +1,59 @@
+Diagram of a CSS selector
+
+Example:
+        a{
+            background-color: yellow;
+        }
+
+   a        {       background-color  :           yellow     ;              }
+   ^        ^              ^          ^             ^        ^              ^
+selector declaration    property  separator       value  declaration   declaration
+           start                                          separator        end
+
+selector: In this case, it's an <a> tag. This will apply the style to ALL links;
+          however, if you'd like only specific links, you could specify a class
+          within your html and target that in the CSS
+property: What you'd like to style
+value: What you'd like the style of the property to be
+
+##########
+# Colors #
+##########
+CSS can accept:
+    - Color names (I.e. red, black, etc.)
+    - HTML5 Color names (I.e. coral)
+    - Hexadecimal values (I.e. color: #ffffff;)
+    - RGB values (I.e. color: rgb(0,255,0);)
+
+#########
+# Fonts #
+#########
+If not using a system font, for example using one of Google's, it would need
+to be imported at the top of your html document much like the css document is
+linked.
+Web Safe Fonts:
+    Arial, Helvetica, sans-serif
+    "Arial Black", Gadget, sans-serif
+    "Bookman Old Style", serif
+    "Comic Sans MS", cursive, sans-serif
+    Courier, monospace
+    "Courier New", Courier, monospace
+    Garamond, serif
+    Georgia, serif
+    Impact, Charcoal, sans-serif
+    "Lucida Console", Monaco, monospace
+    "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    "MS Sans Serif", Geneva, sans-serif
+    "MS Serif", "New York", sans-serif
+    "Palatino Linotype", "Book Antiqua", Palatino, serif
+    Tahoma, Geneva, sans-serif
+    "Times New Roman", Times, serif
+    "Trebuchet MS", Helvetica, sans-serif
+    Verdana, Geneva, sans-serif
+
+###################
+# Classes and IDs #
+###################
+Think of IDs as unique elements (I.e. id="Top-nav-bar") and classes as something
+that may be re-used for different parts (I.e. class="box-1" which can be used for
+any text box)

@@ -1,0 +1,18 @@
+body{
+    background-color:#f4f4f4;
+    color:#555555;
+
+    /* Comments in css */
+    /*  */
+    /* the type face of the letters in the body */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Size of the letters in the body - 16 is default */
+    font-size: 16px;
+    /* weight = "boldness" */
+    font-weight: normal;
+    /* same as above, we can specify everything in one line
+    font: normal 16px Arial, Helvetica, sans-serif;
+    */
+    /* Set distance between lines, normally in "em"s */
+    line-height:1.6em;
+}
